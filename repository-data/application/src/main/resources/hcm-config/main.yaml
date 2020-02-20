@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    bloomreachloginproject:
+      uri: http://www.bloomreachloginproject.com/bloomreachloginproject/nt/1.0
+      cnd: namespaces/bloomreach-login-project.cnd

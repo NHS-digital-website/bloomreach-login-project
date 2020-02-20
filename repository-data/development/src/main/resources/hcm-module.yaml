@@ -1,0 +1,7 @@
+group: 
+  name: bloomreach-login-project
+  after: hippo-cms
+project: bloomreach-login-project
+module: 
+  name: bloomreach-login-project-repository-data-development
+  after: bloomreach-login-project-repository-data-application

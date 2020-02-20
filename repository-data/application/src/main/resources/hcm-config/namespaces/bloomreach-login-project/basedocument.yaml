@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:namespaces/bloomreachloginproject/basedocument:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 29711511-dd12-4ce9-8614-e85147f06601
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 3265e3d6-5004-454d-9dff-b9b50e5a14be
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['hipposysedit:remodel']
+          hipposysedit:supertype: ['hippo:document', 'hippostdpubwf:document', 'hippostd:publishableSummary']
+          hipposysedit:uri: http://www.bloomreachloginproject.com/bloomreachloginproject/nt/1.0

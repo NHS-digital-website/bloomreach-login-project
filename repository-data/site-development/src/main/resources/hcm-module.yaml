@@ -1,0 +1,6 @@
+site: bloomreach-login-project
+group: bloomreach-login-project
+project: bloomreach-login-project
+module:
+  name: bloomreach-login-project-repository-data-site-development
+  after: bloomreach-login-project-repository-data-site

@@ -1,0 +1,27 @@
+<'bloomreachloginproject'='http://www.bloomreachloginproject.com/bloomreachloginproject/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+
+[bloomreachloginproject:account] > hippo:compound, hippostd:relaxed
+  orderable
+
+[bloomreachloginproject:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[bloomreachloginproject:author] > bloomreachloginproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[bloomreachloginproject:bannerdocument] > bloomreachloginproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[bloomreachloginproject:blogpost] > bloomreachloginproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[bloomreachloginproject:contentdocument] > bloomreachloginproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[bloomreachloginproject:newsdocument] > bloomreachloginproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+

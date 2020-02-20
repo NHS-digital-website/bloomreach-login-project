@@ -1,0 +1,226 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/bloomreachloginproject:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:content: Content
+        bloomreachloginproject:image: Image
+        bloomreachloginproject:link: Link
+        bloomreachloginproject:title: Title
+        jcr:name: Banner
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:content: Inhoud
+        bloomreachloginproject:image: Afbeelding
+        bloomreachloginproject:link: Link
+        bloomreachloginproject:title: Titel
+        jcr:name: Banner
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:content: Contenu
+        bloomreachloginproject:image: Image
+        bloomreachloginproject:link: Lien
+        bloomreachloginproject:title: Titre
+        jcr:name: Bannière
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:content: Inhalt
+        bloomreachloginproject:image: Abbildung
+        bloomreachloginproject:link: Link
+        bloomreachloginproject:title: Titel
+        jcr:name: Banner
+    /hippo:configuration/hippo:translations/hippo:types/bloomreachloginproject:blogpost:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:authors: Author(s)
+        bloomreachloginproject:authors#hint: Link to author document(s)
+        bloomreachloginproject:categories: Categories
+        bloomreachloginproject:content: Content
+        bloomreachloginproject:introduction: Introduction
+        bloomreachloginproject:publicationdate: Publication Date
+        bloomreachloginproject:title: Title
+        jcr:name: Blog Post
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:authors: Auteur(s)
+        bloomreachloginproject:authors#hint: Link naar auteur document(en)
+        bloomreachloginproject:categories: Categorieën
+        bloomreachloginproject:content: Inhoud
+        bloomreachloginproject:introduction: Introductie
+        bloomreachloginproject:publicationdate: Publicatiedatum
+        bloomreachloginproject:title: Titel
+        jcr:name: Blogpost
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:authors: Auteur(s)
+        bloomreachloginproject:authors#hint: Lien vers le(s) document(s) de l'auteur
+        bloomreachloginproject:categories: Catégories
+        bloomreachloginproject:content: Contenu
+        bloomreachloginproject:introduction: Introduction
+        bloomreachloginproject:publicationdate: Date de publication
+        bloomreachloginproject:title: Titre
+        jcr:name: Post blog
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:authors: Verfasser
+        bloomreachloginproject:authors#hint: Link zu Verfasserdokument(en)
+        bloomreachloginproject:categories: Kategorien
+        bloomreachloginproject:content: Inhalt
+        bloomreachloginproject:introduction: Einführung
+        bloomreachloginproject:publicationdate: Publikationsdatum
+        bloomreachloginproject:title: Titel
+        jcr:name: Blog-Post
+    /hippo:configuration/hippo:translations/hippo:types/bloomreachloginproject:author:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:accounts: Accounts
+        bloomreachloginproject:accounts#hint: External social media accounts
+        bloomreachloginproject:content: Description
+        bloomreachloginproject:content#hint: Information about the author
+        bloomreachloginproject:fullname: Name
+        bloomreachloginproject:fullname#hint: Full name
+        bloomreachloginproject:photo: Photo
+        bloomreachloginproject:photo#hint: Photo of the author
+        bloomreachloginproject:role: Role
+        jcr:name: Author
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:accounts: Accounts
+        bloomreachloginproject:accounts#hint: Externe social media accounts
+        bloomreachloginproject:content: Beschrijving
+        bloomreachloginproject:content#hint: Informatie over de auteur
+        bloomreachloginproject:fullname: Naam
+        bloomreachloginproject:fullname#hint: Volledige naam
+        bloomreachloginproject:photo: Foto
+        bloomreachloginproject:photo#hint: Foto van de auteur
+        bloomreachloginproject:role: Rol
+        jcr:name: Auteur
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:accounts: Konten
+        bloomreachloginproject:accounts#hint: Comptes médias sociaux externes
+        bloomreachloginproject:content: Description
+        bloomreachloginproject:content#hint: Informations sur l'auteur
+        bloomreachloginproject:fullname: Nom
+        bloomreachloginproject:fullname#hint: Nom complet
+        bloomreachloginproject:photo: Photo
+        bloomreachloginproject:photo#hint: Photo de l'auteur
+        bloomreachloginproject:role: Rôle
+        jcr:name: Auteur
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:accounts: Comptes
+        bloomreachloginproject:accounts#hint: Externe Konten soziale Medien
+        bloomreachloginproject:content: Beschreibung
+        bloomreachloginproject:content#hint: Informationen über den Verfasser
+        bloomreachloginproject:fullname: Name
+        bloomreachloginproject:fullname#hint: Vollständiger Name
+        bloomreachloginproject:photo: Foto
+        bloomreachloginproject:photo#hint: Foto des Verfassers
+        bloomreachloginproject:role: Rolle
+        jcr:name: Verfasser
+    /hippo:configuration/hippo:translations/hippo:types/bloomreachloginproject:account:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:link: Link
+        bloomreachloginproject:link#hint: External link to the account
+        bloomreachloginproject:type: Type
+        jcr:name: Account (Compound)
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:link: Link
+        bloomreachloginproject:link#hint: Externe link naar het account
+        bloomreachloginproject:type: Soort
+        jcr:name: Account (Compound)
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:link: Lien
+        bloomreachloginproject:link#hint: Lien externe vers le compte
+        bloomreachloginproject:type: Type
+        jcr:name: Compte (Compound)
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:link: Link
+        bloomreachloginproject:link#hint: Externer Link zum Konto
+        bloomreachloginproject:type: Art
+        jcr:name: Konto (Compound)
+    /hippo:configuration/hippo:translations/hippo:types/bloomreachloginproject:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:author: Author
+        bloomreachloginproject:content: Content
+        bloomreachloginproject:date: Date
+        bloomreachloginproject:image: Image
+        bloomreachloginproject:introduction: Introduction
+        bloomreachloginproject:location: Location
+        bloomreachloginproject:source: Source
+        bloomreachloginproject:title: Title
+        jcr:name: News Item
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:author: Auteur
+        bloomreachloginproject:content: Inhoud
+        bloomreachloginproject:date: Datum
+        bloomreachloginproject:image: Afbeelding
+        bloomreachloginproject:introduction: Introductie
+        bloomreachloginproject:location: Locatie
+        bloomreachloginproject:source: Bron
+        bloomreachloginproject:title: Titel
+        jcr:name: Nieuwsbericht
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:author: Verfasser
+        bloomreachloginproject:content: Inhalt
+        bloomreachloginproject:date: Datum
+        bloomreachloginproject:image: Abbildung
+        bloomreachloginproject:introduction: Einführung
+        bloomreachloginproject:location: Standort
+        bloomreachloginproject:source: Quelle
+        bloomreachloginproject:title: Titel
+        jcr:name: News
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:author: Auteur
+        bloomreachloginproject:content: Contenu
+        bloomreachloginproject:date: Date
+        bloomreachloginproject:image: Image
+        bloomreachloginproject:introduction: Introduction
+        bloomreachloginproject:location: Lieu
+        bloomreachloginproject:source: Source
+        bloomreachloginproject:title: Titre
+        jcr:name: Message d'info
+    /hippo:configuration/hippo:translations/hippo:types/bloomreachloginproject:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:content: Content
+        bloomreachloginproject:introduction: Introduction
+        bloomreachloginproject:publicationdate: Publication date
+        bloomreachloginproject:title: Title
+        jcr:name: Simple Document
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:content: Inhoud
+        bloomreachloginproject:introduction: Introductie
+        bloomreachloginproject:publicationdate: Publicatiedatum
+        bloomreachloginproject:title: Titel
+        jcr:name: Eenvoudig Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:content: Contenu
+        bloomreachloginproject:introduction: Introduction
+        bloomreachloginproject:publicationdate: Date de publication
+        bloomreachloginproject:title: Titre
+        jcr:name: Document simple
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        bloomreachloginproject:content: Inhalt
+        bloomreachloginproject:introduction: Einführung
+        bloomreachloginproject:publicationdate: Publikationsdatum
+        bloomreachloginproject:title: Titel
+        jcr:name: Einfaches Dokument

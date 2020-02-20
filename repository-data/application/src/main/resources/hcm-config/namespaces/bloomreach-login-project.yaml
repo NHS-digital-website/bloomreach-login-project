@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/bloomreachloginproject:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6081157e-b1db-4856-8364-ff0bd12e34a8

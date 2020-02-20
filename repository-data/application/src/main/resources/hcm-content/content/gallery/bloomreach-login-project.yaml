@@ -1,0 +1,7 @@
+/content/gallery/bloomreachloginproject:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 63572122-5580-4e2f-ac8b-3fd1ba6cf86c
+  hippo:name: Bloomreach Login Project
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

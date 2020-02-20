@@ -1,0 +1,5 @@
+group: 
+  name: bloomreach-login-project
+project: bloomreach-login-project
+module:
+  name: bloomreach-login-project-repository-data-webfiles

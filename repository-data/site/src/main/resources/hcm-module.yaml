@@ -1,0 +1,6 @@
+group: 
+  name: bloomreach-login-project
+  after: hippo-cms
+project: bloomreach-login-project
+module:
+  name: bloomreach-login-project-repository-data-site
