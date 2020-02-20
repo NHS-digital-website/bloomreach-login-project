@@ -71,6 +71,8 @@
 
     <hippo.cms.locales>nl,de,fr,es,zh</hippo.cms.locales>
     <buildNumber>${maven.build.timestamp}</buildNumber>
+    <spring-security.version>5.2.1.RELEASE</spring-security.version>
+    <hst-springsec.version>2.1.0</hst-springsec.version>
   </properties>
 
   <repositories>
@@ -79,6 +81,20 @@
       <name>Hippo maven 2 repository.</name>
       <url>https://maven.onehippo.com/maven2/</url>
     </repository>
+
+    <repository>
+      <id>hippo-forge</id>
+      <name>Bloomreach Forge maven 2 repository.</name>
+      <url>https://maven.onehippo.com/maven2-forge/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <layout>default</layout>
+    </repository>
+
   </repositories>
 
   <dependencyManagement>
@@ -110,6 +126,35 @@
         <groupId>org.freemarker</groupId>
         <artifactId>freemarker</artifactId>
         <version>${freemarker.version}</version>
+      </dependency>
+
+      <!-- spring security -->
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-core</artifactId>
+        <version>${spring-security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-web</artifactId>
+        <version>${spring-security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-config</artifactId>
+        <version>${spring-security.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-taglibs</artifactId>
+        <version>${spring-security.version}</version>
+      </dependency>
+
+      <!-- hst spring security -->
+      <dependency>
+        <groupId>org.onehippo.forge.hst-springsec</groupId>
+        <artifactId>hst-springsec</artifactId>
+        <version>${hst-springsec.version}</version>
       </dependency>
 
     </dependencies>
