@@ -31,3 +31,19 @@
   <@hst.cmseditmenu menu=menu/>
 </div>
 </#if>
+
+<br />
+
+<#if hstRequest.userPrincipal??>
+    <p>Welcome <strong>${hstRequest.userPrincipal.name}</strong>!</p>
+    <br />
+
+    <form name="logoutForm" method="post" action="<@hst.link path="/logout"/>">
+        <#if _csrf??>
+            <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+        </#if>
+        <input type="submit" name="logoutButton" value="Log out" />
+    </form>
+</#if>
+
+<br />
